@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4f46e5" />
+    <meta
+      name="description"
+      content="Pocket Ledger is a clean, modern budget tracker mockup for managing spending, income, and monthly goals."
+    />
+    <meta property="og:title" content="Pocket Ledger | Budget Tracker" />
+    <meta
+      property="og:description"
+      content="A polished personal budgeting dashboard preview built with HTML, CSS, and JavaScript."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://YOUR_USERNAME.github.io/expense-tracker-js/" />
+    <meta property="og:image" content="https://YOUR_USERNAME.github.io/expense-tracker-js/og-preview.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pocket Ledger | Budget Tracker" />
+    <meta
+      name="twitter:description"
+      content="Previewing a shareable budget tracker with a clean dashboard design."
+    />
+    <title>Pocket Ledger | Budget Tracker</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <div class="brand-mark">PL</div>
+          <div>
+            <p class="eyebrow">Personal finance</p>
+            <h1>Pocket Ledger</h1>
+          </div>
+        </div>
+        <span class="status-pill">Monthly snapshot</span>
+      </header>
+
+      <main class="dashboard">
+        <section class="hero-card">
+          <div class="hero-copy">
+            <p class="eyebrow accent">Budget overview</p>
+            <h2>Stay on top of what matters.</h2>
+            <p class="subtitle">
+              A simple budget dashboard for tracking spending, keeping essentials in view,
+              and planning smarter monthly habits.
+            </p>
+          </div>
+
+          <div class="balance-panel">
+            <p>Remaining balance</p>
+            <strong id="remainingBalance">$0</strong>
+            <span id="budgetStatus">On track</span>
+          </div>
+        </section>
+
+        <section class="stats-grid" aria-label="Budget summary">
+          <article class="stat-card income">
+            <p>Monthly income</p>
+            <strong id="monthlyIncome">$0</strong>
+          </article>
+          <article class="stat-card expenses">
+            <p>Total expenses</p>
+            <strong id="totalExpenses">$0</strong>
+          </article>
+          <article class="stat-card essentials">
+            <p>Essentials</p>
+            <strong id="essentialSpend">$0</strong>
+          </article>
+          <article class="stat-card warning">
+            <p>Non-essentials</p>
+            <strong id="nonEssentialSpend">$0</strong>
+          </article>
+        </section>
+
+        <section class="content-grid">
+          <article class="panel">
+            <div class="panel-header">
+              <h3>Spending breakdown</h3>
+              <span>Last 30 days</span>
+            </div>
+            <ul id="expenseList" class="expense-list" aria-live="polite"></ul>
+          </article>
+
+          <article class="panel insights-panel">
+            <div class="panel-header">
+              <h3>Focus areas</h3>
+              <span>Suggested</span>
+            </div>
+            <div class="insight-stack">
+              <div class="insight-item">
+                <p>Housing</p>
+                <strong>33% of budget</strong>
+              </div>
+              <div class="insight-item">
+                <p>Food & groceries</p>
+                <strong>18% of budget</strong>
+              </div>
+              <div class="insight-item">
+                <p>Utilities</p>
+                <strong>12% of budget</strong>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Pocket Ledger favicon">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#bg)"/>
+  <path d="M18 44V20h8.5c5 0 8.5 2.8 8.5 7.3 0 4.5-3.5 7.4-8.5 7.4H23v9.3h-5zm5-12.2h3.4c2.2 0 3.6-1.1 3.6-3.1 0-2-1.4-3.2-3.6-3.2H23v6.3z" fill="#ffffff"/>
+  <path d="M38 18h10v4H38zm0 10h10v4H38zm0 10h10v4H38z" fill="#c7d2fe"/>
+</svg>

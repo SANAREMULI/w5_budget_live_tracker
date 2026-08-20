@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Pocket Ledger preview</title>
+  <desc id="desc">A clean budget tracker mockup with a dashboard layout.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="36" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="470" rx="30" fill="#ffffff"/>
+  <rect x="110" y="110" width="240" height="54" rx="16" fill="#eef2ff"/>
+  <circle cx="142" cy="138" r="18" fill="url(#card)"/>
+  <text x="176" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#1f2937">PL</text>
+  <text x="390" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">Pocket Ledger</text>
+  <rect x="104" y="200" width="440" height="130" rx="26" fill="#f5f3ff"/>
+  <text x="132" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" fill="#6b7280">Budget overview</text>
+  <text x="132" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" fill="#111827">$1,420</text>
+  <text x="132" y="334" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#10b981">On track</text>
+  <rect x="610" y="200" width="210" height="130" rx="26" fill="#eef2ff"/>
+  <text x="650" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="21" fill="#6b7280">Income</text>
+  <text x="650" y="294" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#312e81">$3,200</text>
+  <rect x="840" y="200" width="220" height="130" rx="26" fill="#ecfeff"/>
+  <text x="878" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="21" fill="#6b7280">Expenses</text>
+  <text x="878" y="294" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#0f172a">$1,780</text>
+  <rect x="104" y="356" width="500" height="150" rx="26" fill="#f8fafc" stroke="#e5e7eb"/>
+  <text x="136" y="396" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">Spending breakdown</text>
+  <rect x="136" y="426" width="190" height="18" rx="9" fill="#dbeafe"/>
+  <rect x="336" y="426" width="110" height="18" rx="9" fill="#c7d2fe"/>
+  <rect x="136" y="460" width="130" height="18" rx="9" fill="#d1fae5"/>
+  <rect x="280" y="460" width="120" height="18" rx="9" fill="#fef3c7"/>
+  <rect x="610" y="356" width="450" height="150" rx="26" fill="#f8fafc" stroke="#e5e7eb"/>
+  <text x="644" y="396" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">Focus areas</text>
+  <text x="644" y="440" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#6b7280">Housing</text>
+  <text x="644" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">33% of budget</text>
+  <text x="644" y="500" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#6b7280">Utilities & essentials</text>
+</svg>
